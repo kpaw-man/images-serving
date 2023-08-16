@@ -22,7 +22,7 @@
               "motivation": "painting",
               "body": {
                 "id": "https://collections.st-andrews.ac.uk/media/403185/403185.glb",   
-                "type": "Image",
+                "type": "Model",
                 "format": "model/gltf-binary"
               },
               "target": "https://raw.githubusercontent.com/kpaw-man/images-serving/main/skull-3d-manifest-prezi3.json/canvas/0"
