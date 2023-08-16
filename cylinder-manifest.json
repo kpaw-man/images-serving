@@ -21,7 +21,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-               "id": "https://github.com/kpaw-man/images-serving/raw/main/2CylinderEngine.glb",
+               "id": "https://raw.githubusercontent.com/kpaw-man/images-serving/main/2CylinderEngine.glb",
                "type": "Model",
                "format": "model/gltf-binary",
                 "label": {
