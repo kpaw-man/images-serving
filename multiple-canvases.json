@@ -20,14 +20,7 @@
                      "resource":{
                         "@type":"dctypes:Image",
                         "@id":"https://collections.st-andrews.ac.uk/iiif/2/1000057~1000057/full/full/0/default.jpg",
-                        "format":"image/jpeg",
-                        "width":667,
-                        "height":500,
-                        "service":{
-                           "@context":"http://iiif.io/api/image/2/context.json",
-                           "@id":"https://collections.st-andrews.ac.uk/iiif/2/1000057~1000057",
-                           "profile":"http://iiif.io/api/image/2/level1.json"
-                        }
+                        "format":"image/jpeg"
                      }
                   }
                ]
