@@ -64,18 +64,28 @@
                   }
                ],
                "label":"2",
-               "images":[
+               "items":[
                   {
-                        "@type":"dctypes:Image",
-                        "@id":"https://collections.st-andrews.ac.uk/iiif/2/1006557~1006557/full/full/0/default.jpg",
-                        "format":"image/jpeg",
-                        "width":300,
-                        "height":452,
-                     "resource":{
-                        "@type":"Model",
-                        "@id":"https://collections.st-andrews.ac.uk/media/403185/403185.glb",
-                        "format":"model/gltf-binary"
-                     }
+                     "id":"https://raw.githubusercontent.com/kpaw-man/images-serving/main/skull-3d-manifest.json/canvas/0/annotationpage/0",
+                     "type":"AnnotationPage",
+                     "items":[
+                        {
+                           "id":"https://raw.githubusercontent.com/kpaw-man/images-serving/main/skull-3d-manifest.json/canvas/0/annotation/0",
+                           "type":"Annotation",
+                           "motivation":"painting",
+                           "body":{
+                              "id":"https://collections.st-andrews.ac.uk/media/403185/403185.glb",
+                              "type":"Model",
+                              "format":"model/gltf-binary",
+                              "label":{
+                                 "@none":[
+                                    "_example-one"
+                                 ]
+                              }
+                           },
+                           "target":"https://raw.githubusercontent.com/kpaw-man/images-serving/main/skull-3d-manifest.json/canvas/0"
+                        }
+                     ]
                   }
                ]
             }
