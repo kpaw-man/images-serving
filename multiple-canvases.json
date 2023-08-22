@@ -78,11 +78,9 @@
                      "motivation":"sc:painting",
                      "on":"https://collections.st-andrews.ac.uk/1001187/manifest/canvas/1006557",
                      "resource":{
-                        "@type":"dctypes:Image",
-                        "@id":"https://collections.st-andrews.ac.uk/iiif/2/1006557~1006557/full/full/0/default.jpg",
-                        "format":"image/jpeg",
-                        "width":300,
-                        "height":452,
+                        "@type":"Model",
+                        "@id":"https://collections.st-andrews.ac.uk/media/403185/403185.glb",
+                        "format":"model/gltf-binary",
                         "service":{
                            "@context":"http://iiif.io/api/image/2/context.json",
                            "@id":"https://collections.st-andrews.ac.uk/iiif/2/1006557~1006557",
