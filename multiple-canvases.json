@@ -9,21 +9,37 @@
          "viewingDirection":"left-to-right",
          "canvases":[
             {
-               "@type":"sc:Canvas",
-               "@id":"https://github.com/kpaw-man/images-serving/edit/main/multiple-canvases.json/canvas/1000057",
-               "label":"1",
-               "images":[
+               "id":"https://github.com/kpaw-man/images-serving/edit/main/multiple-canvases.json/canvas/0",
+               "type":"Canvas",
+               "items":[
                   {
-                     "@type":"dctypes:Image",
-                     "motivation":"sc:painting",
-                     "on":"https://github.com/kpaw-man/images-serving/edit/main/multiple-canvases.json/canvas/1000057",
-                     "resource":{
-                        "@type":"dctypes:Image",
-                        "@id":"https://collections.st-andrews.ac.uk/iiif/2/1000057~1000057/full/full/0/default.jpg",
-                        "format":"image/jpeg"
-                     }
+                     "id":"https://github.com/kpaw-man/images-serving/edit/main/multiple-canvases.json/canvas/0/annotationpage/0",
+                     "type":"AnnotationPage",
+                     "items":[
+                        {
+                           "id":"https://github.com/kpaw-man/images-serving/edit/main/multiple-canvases.json/canvas/0/annotation/0",
+                           "type":"Annotation",
+                           "motivation":"painting",
+                           "body":{
+                              "id":"https://collections.st-andrews.ac.uk/media/403185/403185.glb",
+                              "type":"Model",
+                              "format":"model/gltf-binary",
+                              "label":{
+                                 "@none":[
+                                    "_example-one"
+                                 ]
+                              }
+                           },
+                           "target":https://github.com/kpaw-man/images-serving/edit/main/multiple-canvases.json/canvas/0"
+                        }
+                     ]
                   }
-               ]
+               ],
+               "label":{
+                  "@none":[
+                     "_example-one"
+                  ]
+               }
             },
             {
                "@type":"sc:Canvas",
