@@ -56,10 +56,7 @@
                   }
                ]
             }
-         ],
-         "viewingDirection":"left-to-right",
-         "@type":"sc:Sequence",
-         "@id":"https://raw.githubusercontent.com/kpaw-man/images-serving/main/multi-3d-file.json/sequences/0"
+         ]
       }
    ]
 }
