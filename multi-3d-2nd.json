@@ -42,9 +42,9 @@
                      "type":"Annotation",
                      "motivation":"painting",
                      "body":{
-                        "id":"https://raw.githubusercontent.com/mathewjordan/item/main/public/fixtures/palouse-1.jpg",
-                        "type":"Image",
-                        "format":"image/jpeg",
+                        "id":"https://collections.st-andrews.ac.uk/media/403185/403185.glb",
+                        "type":"Model",
+                        "format":"model/gltf-binary",
                         "height":300,
                         "width":300
                      },
