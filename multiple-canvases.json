@@ -72,12 +72,7 @@
                      "resource":{
                         "@type":"Model",
                         "@id":"https://collections.st-andrews.ac.uk/media/403185/403185.glb",
-                        "format":"model/gltf-binary",
-                        "service":{
-                           "@context":"http://iiif.io/api/image/2/context.json",
-                           "@id":"https://collections.st-andrews.ac.uk/iiif/2/1006557~1006557",
-                           "profile":"http://iiif.io/api/image/2/level1.json"
-                        }
+                        "format":"model/gltf-binary"
                      }
                   }
                ]
