@@ -46,7 +46,7 @@
                            "type":"Annotation",
                            "motivation":"painting",
                            "body":{
-                              "id":"https://collections.st-andrews.ac.uk/media/403122/403122.glb",
+                              "id":"https://github.com/kpaw-man/images-serving/raw/main/2CylinderEngine.glb",
                               "type":"Model",
                               "format":"model/gltf-binary"
                            },
