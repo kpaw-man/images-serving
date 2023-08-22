@@ -66,9 +66,11 @@
                "label":"2",
                "images":[
                   {
-                     "@type":"Model",
-                     "motivation":"sc:painting",
-                     "on":"https://collections.st-andrews.ac.uk/1001187/manifest/canvas/1006557",
+                        "@type":"dctypes:Image",
+                        "@id":"https://collections.st-andrews.ac.uk/iiif/2/1006557~1006557/full/full/0/default.jpg",
+                        "format":"image/jpeg",
+                        "width":300,
+                        "height":452,
                      "resource":{
                         "@type":"Model",
                         "@id":"https://collections.st-andrews.ac.uk/media/403185/403185.glb",
