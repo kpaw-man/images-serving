@@ -23,23 +23,13 @@
               "body": {
                "id": "https://collections.st-andrews.ac.uk/media/403185/403185.glb",
                "type": "Model",
-               "format": "model/gltf-binary",
-                "label": {
-                  "@none": [
-                    "_example-one"
-                  ]
-                }
+               "format": "model/gltf-binary"
               },
               "target": "https://raw.githubusercontent.com/kpaw-man/images-serving/main/skull-3d-manifest.json/canvas/0"
             }
           ]
         }
-      ],
-      "label": {
-        "@none": [
-          "_example-one"
-        ]
-      }
+      ]
     },
      {
       "id": "https://raw.githubusercontent.com/kpaw-man/images-serving/main/skull-3d-manifest.json/canvas/1",
@@ -54,25 +44,15 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-               "id": "https://collections.st-andrews.ac.uk/media/403185/403185.glb",
+               "id": "https://raw.githubusercontent.com/kpaw-man/images-serving/main/2CylinderEngine.glb",
                "type": "Model",
-               "format": "model/gltf-binary",
-                "label": {
-                  "@none": [
-                    "_example-one"
-                  ]
-                }
+               "format": "model/gltf-binary"
               },
               "target": "https://raw.githubusercontent.com/kpaw-man/images-serving/main/skull-3d-manifest.json/canvas/1"
             }
           ]
         }
-      ],
-      "label": {
-        "@none": [
-          "_example-one"
-        ]
-      }
+      ]
     }
   ]
 }
