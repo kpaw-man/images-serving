@@ -42,7 +42,7 @@
                      "type":"Annotation",
                      "motivation":"painting",
                      "body":{
-                        "id":"https://raw.githubusercontent.com/mathewjordan/item/main/public/fixtures/palouse-1.jpg",
+                        "id":"https://filesamples.com/samples/image/jpeg/sample_640%C3%97426.jpeg",
                         "type":"Image",
                         "format":"image/jpeg",
                         "height":300,
