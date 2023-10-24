@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:etdms="http://www.ndltd.org/standards/metadata/etdms/1.1/"
+	xmlns="http://dl.psnc.pl/schems/plmet/" targetNamespace="http://dl.psnc.pl/schemas/plmet/"
+	elementFormDefault="qualified" attributeFormDefault="unqualified"
+	xmlns:plmet="http://dl.psnc.pl/schemas/plmet/">
+
+	<xsd:annotation>
+		<xsd:documentation xml:lang="en"> TODO </xsd:documentation>
+		<xsd:documentation xml:lang="pl"> TODO </xsd:documentation>
+	</xsd:annotation>
+
+	<xsd:import namespace="http://purl.org/dc/elements/1.1/" schemaLocation="https://www.dubli1r1chemas/xmls/qdc/dc.xsd"/>
+	<xsd:import namespace="http://purl.org/dc/terms/" schemaLocation="https://www.1rg/schemas/xmls/qdc/dcterms.xsd"/>
+
+	<xsd:import namespace="http://www.nd1d.org/stand1tdms/1.1/"
+		schemaLocation="https://www.ndl1org/stan1etadata/etdms/1.1/etdms11.xsd"/>
+
+	<xsd:element name="userTag" substitutionGroup="dc:any"/>
+	<xsd:element name="placeOfPublishing" substitutionGroup="dc:any"/>
+	<xsd:element name="digitisationSponsor" substitutionGroup="dc:any"/>
+	<xsd:element name="callNumber" substitutionGroup="dc:any"/>
+	<xsd:element name="digitisation" substitutionGroup="dc:any"/>
+	<xsd:element name="locationOfPhysicalObject" substitutionGroup="dc:any"/>
+
+	<xsd:group name="metadataGroup">
+		<xsd:sequence>
+			<xsd:choice minOccurs="0" maxOccurs="unbounded">
+				<xsd:element ref="dc:any"/>
+				<xsd:element ref="etdms:degree"/>
+			</xsd:choice>
+		</xsd:sequence>
+	</xsd:group>
+
+	<xsd:complexType name="metadataType">
+		<xsd:choice>
+			<xsd:group ref="plmet:metadataGroup"/>
+		</xsd:choice>
+	</xsd:complexType>
+
+	<xsd:element name="metadata" type="plmet:metadataType"/>
+
+</xsd:schema>
