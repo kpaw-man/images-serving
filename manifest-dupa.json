@@ -1,0 +1,78 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "http://localhost:8182/manifest-14c62c618e894ffd9a65edb79f76032b.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Manifest for resource_id: 5fe935f762cc57f02caf"
+    ]
+  },
+  "items": [
+    {
+      "id": "http://localhost:8182/canvas_1.1",
+      "type": "Canvas",
+      "items": [
+        {
+          "id": "http://localhost:8182/canvas_1.1/page_1.1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:8182/canvas_1.1/page_1.1/annotation_1.1",
+              "type": "Annotation",
+              "body": {
+                "id": "http://localhost:8182/109344e0-c913-48e3-8b08-abe60a433274__5fe935f762cc57f02caf__14eadf42-6c66-4c17-8ae1-22a379b08500__generated__bilet-kd-3260_Page0001.tif",
+                "type": "Image",
+                "format": "image/tiff"
+              },
+              "target": "http://localhost:8182/canvas_1.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:8182/canvas_1.2",
+      "type": "Canvas",
+      "items": [
+        {
+          "id": "http://localhost:8182/canvas_1.2/page_1.2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:8182/canvas_1.2/page_1.2/annotation_1.2",
+              "type": "Annotation",
+              "body": {
+                "id": "http://localhost:8182/109344e0-c913-48e3-8b08-abe60a433274__5fe935f762cc57f02caf__14eadf42-6c66-4c17-8ae1-22a379b08500__generated__bilet-kd-3260_Page0002.tif",
+                "type": "Image",
+                "format": "image/tiff"
+              },
+              "target": "http://localhost:8182/canvas_1.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:8182/canvas_1.3",
+      "type": "Canvas",
+      "items": [
+        {
+          "id": "http://localhost:8182/canvas_1.3/page_1.3",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:8182/canvas_1.3/page_1.3/annotation_1.3",
+              "type": "Annotation",
+              "body": {
+                "id": "http://localhost:8182/109344e0-c913-48e3-8b08-abe60a433274__5fe935f762cc57f02caf__14eadf42-6c66-4c17-8ae1-22a379b08500__generated__bilet-kd-3260_Page0003.tif",
+                "type": "Image",
+                "format": "image/tiff"
+              },
+              "target": "http://localhost:8182/canvas_1.3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
