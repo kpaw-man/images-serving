@@ -1,0 +1,79 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://cantaloupe-dariah-lab1.apps.dcw1.paas.psnc.pl/manifest-1ebb8006ed2f4867bf9f33f8b7b26748.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Simple Manifest - Book"
+    ]
+  },
+  "behavior": [
+    "paged"
+  ],
+  "items": [
+    {
+      "id": "https://cantaloupe-dariah-lab1.apps.dcw1.paas.psnc.pl/canvas_1.1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Blank page"
+        ]
+      },
+      "height": 4613,
+      "width": 3204,
+      "items": [
+        {
+          "id": "https://cantaloupe-dariah-lab1.apps.dcw1.paas.psnc.pl/canvas_1.1/page_1.1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://cantaloupe-dariah-lab1.apps.dcw1.paas.psnc.pl/canvas_1.1/page_1.1/annotation_1.1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://cantaloupe-dariah-lab1.apps.dcw1.paas.psnc.pl/iiif/3/18ee73c4-aabf-4a3f-8288-e82604ef85b5__6ad2698881eb2ae993d9__903890d1-315a-4268-a649-5721a95f5a2a__generated__78787-293284-2-PB_Page0001.tif/0,0,4000,828/pct:100/0/color.jpg",
+                "type": "Image",
+                "format": "image/jpg",
+                "height": 4613,
+                "width": 3204
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://cantaloupe-dariah-lab1.apps.dcw1.paas.psnc.pl/canvas_1.2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Frontispiece"
+        ]
+      },
+      "width": 3186,
+      "height": 4612,
+      "items": [
+        {
+          "id": "https://cantaloupe-dariah-lab1.apps.dcw1.paas.psnc.pl/canvas_1.2/page_1.2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://cantaloupe-dariah-lab1.apps.dcw1.paas.psnc.pl/canvas_1.2/page_1.2/annotation_1.2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://cantaloupe-dariah-lab1.apps.dcw1.paas.psnc.pl/iiif/3/18ee73c4-aabf-4a3f-8288-e82604ef85b5__6ad2698881eb2ae993d9__903890d1-315a-4268-a649-5721a95f5a2a__generated__78787-293284-2-PB_Page0002.tif/0,0,4000,828/pct:100/0/color.jpg",
+                "type": "Image",
+                "format": "image/jpg",
+                "width": 3186,
+                "height": 4612
+              },
+              "target": "https://cantaloupe-dariah-lab1.apps.dcw1.paas.psnc.pl/canvas_1.2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
