@@ -1,0 +1,60 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://cantaloupe-dariah-lab1.apps.dcw1.paas.psnc.pl/manifest-e8a8b23199ea429298ddc262125753dc.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Manifest for resource_id: 1f84e6ec66201fdefca6"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://cantaloupe-dariah-lab1.apps.dcw1.paas.psnc.pl/canvas_1.1",
+      "type": "Canvas",
+      "height": 1800,
+      "width": 1200,
+      "items": [
+        {
+          "id": "https://cantaloupe-dariah-lab1.apps.dcw1.paas.psnc.pl/canvas_1.1/page_1.1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://cantaloupe-dariah-lab1.apps.dcw1.paas.psnc.pl/canvas_1.1/page_1.1/annotation_1.1",
+              "type": "Annotation",
+              "body": {
+                "id": "https://cantaloupe-dariah-lab1.apps.dcw1.paas.psnc.pl/iiif/3/18ee73c4-aabf-4a3f-8288-e82604ef85b5__1f84e6ec66201fdefca6__6c70c403-3a9c-4688-ba55-c5e35a093d6d__generated__78787-293284-2-PB_Page0001.tif/full/max/0/default.tif",
+                "type": "Image",
+                "format": "image/tiff"
+              },
+              "target": "https://cantaloupe-dariah-lab1.apps.dcw1.paas.psnc.pl/canvas_1.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://cantaloupe-dariah-lab1.apps.dcw1.paas.psnc.pl/canvas_1.2",
+      "type": "Canvas",
+      "height": 1800,
+      "width": 1200,
+      "items": [
+        {
+          "id": "https://cantaloupe-dariah-lab1.apps.dcw1.paas.psnc.pl/canvas_1.2/page_1.2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://cantaloupe-dariah-lab1.apps.dcw1.paas.psnc.pl/canvas_1.2/page_1.2/annotation_1.2",
+              "type": "Annotation",
+              "body": {
+                "id": "https://cantaloupe-dariah-lab1.apps.dcw1.paas.psnc.pl/iiif/3/18ee73c4-aabf-4a3f-8288-e82604ef85b5__1f84e6ec66201fdefca6__6c70c403-3a9c-4688-ba55-c5e35a093d6d__generated__78787-293284-2-PB_Page0002.tif/full/max/0/default.tif",
+                "type": "Image",
+                "format": "image/tiff"
+              },
+              "target": "https://cantaloupe-dariah-lab1.apps.dcw1.paas.psnc.pl/canvas_1.2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
