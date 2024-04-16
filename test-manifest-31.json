@@ -34,8 +34,8 @@
                      ],
                      "body":{
                         "id":"https://raw.githubusercontent.com/IIIF/3d/main/assets/astronaut/astronaut.glb",
-                        "type":"Model"
-					              "format": "model/gltf-binary"
+                        "type":"Model",
+			"format": "model/gltf-binary"
                      },
                      "target":{
                         "type":"SpecificResource",
@@ -67,7 +67,7 @@
                            {
                               "id":"https://raw.githubusercontent.com/IIIF/3d/main/assets/astronaut/astronaut.glb",
                               "type":"Model",
-					                  	"format": "model/gltf-binary"
+			      "format": "model/gltf-binary"
                            }
                         ],
                         "transform":[
